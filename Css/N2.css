@@ -1,0 +1,374 @@
+/* ruls */
+body
+{
+    font-family: "Comic Sans MS", cursive, sans-serif 
+}
+
+.contener
+{
+    width: 1170px;
+    margin: auto
+}
+
+.clear-fix
+{
+    clear: both
+}
+
+
+/*Start header*/
+
+header
+{
+    background-image: url("../Images/11.jpg");
+    background-size: cover;
+    height: 800px
+}
+
+header .contener .clear ul
+{
+    float: left;
+    overflow: hidden;
+    list-style: none
+}
+
+header .contener .clear ul li
+{
+    float: left;
+    padding: 10px
+}
+
+header .contener .clear ul li a
+{
+    text-decoration: none;
+    color: #fff
+}
+
+header .contener .clear ul li a:hover
+{
+    font-weight: bold;
+    color:#b3ecff
+}
+
+header .head 
+{
+    text-align: center
+}
+
+header .head h1
+{
+    margin: auto;
+    padding-top: 100px;
+    color: #fff;
+    font-size: 80px
+}
+
+header .head h2
+{
+    color: #fff
+}
+
+header .form
+{
+    float: left;
+    width: 40%;
+    margin: 4% 0% 4% 4%;
+    padding: 1% ;
+    background: #227ab4;
+    opacity: .5
+    
+}
+
+header .form form input
+{
+    display: block;
+    width: 80%;
+    margin: 5%;
+    background-color: #e6faff;
+    color: #cbcbda
+}
+
+header .form .formb
+{
+    display: inline
+}
+
+header .form .formb input
+{
+    display: inline;
+    width: 25%;
+    background-color: #4db8ff;
+    height: 40px;
+    color: #e9e9f0;
+    border: hidden
+}
+
+header .form p
+{
+    color: #4db8ff;
+    padding: 1%
+}
+
+header .form span
+{
+    color: #8b8f92 
+}
+
+header .form .formb p
+{
+    color: #b3e0ff;
+    display: inline
+}
+
+header .form .formb a
+{
+   text-decoration: none;
+   color: #4db8ff
+}
+
+header .nextform
+{
+    float: right;
+    width: 40%;
+    margin: 4% 0 4% 4%;
+    padding: 2% ;   
+}
+
+header .nextform div
+{
+    padding-bottom: 7%;
+}
+
+header .nextform i
+{
+    color: #149fea;
+}
+
+header .nextform p
+{
+    display: inline;
+    color: #174878
+}
+/* End header */
+
+/* Start Second s */
+
+.second h2
+{
+    text-align: center;
+    color: #005c99;
+    padding-bottom: 80px
+}
+
+.second .flag
+{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding-bottom: 100px
+}
+
+.second .flag i
+{
+    display: block;
+}
+
+.second .flag a
+{
+    color: #005c99;
+    text-decoration: none
+}
+
+.second .flag a:hover
+{
+    font-weight: bold;
+    color:#b3ecff
+}
+
+.second .flag p
+{
+    color: #757678
+}
+
+/* End Second s */
+
+/* Start Third s */
+
+.third
+{
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    height: 380px  
+}
+
+.third .l
+{
+    float: left;
+    width: 50%
+}
+
+.third .l h2
+{
+     color: #005c99;
+    padding-bottom: 20px;
+}
+
+.third .l p
+{
+   color: #757678 
+}
+
+.third .l button
+{
+    background-color: #005c99;
+    color: #fff;
+    border: hidden;
+    height: 45px;
+    width: 145px
+}
+
+.third .r
+{
+    float: right;
+    width: 50%;
+}
+
+.third .r h5
+{
+    color: #005c99;
+    padding-bottom: 10px;
+}
+
+
+.third .r p
+{
+    display: inline;
+    color: #757678
+}
+/* End Third s */
+
+/*Start Fourth s */
+
+.fourth h2
+{
+    text-align: center;
+    padding-bottom: 30px
+}
+
+.fourth div img
+{
+    float: left;
+    margin: 5px 9px 15px 9px
+}
+
+.fourth .button
+{
+    text-align: center;
+    padding:80px
+}
+.fourth .button button
+{
+    
+    background-color: #005c99;
+    color: #fff;
+    border: hidden;
+    height: 45px;
+    width: 145px
+}
+
+/* End Fourth s */
+
+/*Start Fifth s */
+.fifth
+{
+    padding: 60px;
+    text-align: center;
+    background-color: #357ccb
+}
+
+.fifth h3
+{
+    color: #fff;
+    font-weight: 600
+}
+
+.fifth button
+{
+    margin: 10px;
+    color: #fff;
+    border: hidden;
+    height: 45px;
+    width: 145px
+}
+
+.fifth .blue
+{
+    background-color: #2295e1
+}
+
+.fifth .green
+{
+    background-color: #45d589
+}
+/* End Fifth s */
+
+/* Start sixth s */
+.sixth
+{
+    background-color: #e7e7e7;
+    height: 300px;
+    padding-top: 40px
+}
+
+.sixth .names
+{
+    
+    float: left
+}
+
+.sixth .names div
+{
+    text-align: left;
+    margin-right: 30px;
+    float: left
+}
+
+.sixth .note
+{
+    margin: 25px;
+    padding: 25px;
+}
+
+.sixth .note p
+{
+    color: #858d93 
+}
+
+.sixth .note span
+{
+    color: #000
+}
+/* End sixth s */
+
+/* Start Footer */
+footer
+{
+    height: 40px;
+    margin-top: 20px
+}
+
+footer div 
+{
+    display: inline
+}
+
+footer div p
+{
+    display: inline;
+    margin: 20px
+}
+
+footer span
+{
+    color: #858d93
+}
+/* End Footer */
